@@ -1,0 +1,19 @@
+.footer {
+  background-color: #fcd5d5;
+  position: relative;
+  color: #ccc;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+}
+/* Add to every section */
+body{
+  /* Add to every section */
+color: #fff; /* or dark text if background is light */
+opacity: 0.95;
+background-color: #b2b8ee; /* or another high contrast color */
+padding: 100px 20px; /* ensures enough space */
+
+}
+
+

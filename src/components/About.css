@@ -1,0 +1,23 @@
+.about-section {
+  padding: 100px 20px;
+  background-color:transparent;
+  color: #333;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-section h2 {
+  color: aqua;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  color: azure;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}

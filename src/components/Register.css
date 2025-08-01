@@ -1,0 +1,53 @@
+.register-section {
+  padding: 100px 20px;
+  background-color: #b61681;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.register-section h2 {
+  color: aqua;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  margin-bottom: 40px;
+  opacity: 0.95;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input {
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.85;
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+input:focus {
+  outline: 2px solid #c33764;
+}
+
+button {
+  padding: 15px;
+  font-size: 1rem;
+  background-color: #c33764;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  opacity: 0.9;
+}
+
+button:hover {
+  background-color: #e94e77;
+}

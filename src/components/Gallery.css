@@ -1,0 +1,35 @@
+.gallery-section {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #171035, #f4a6c8, #3bd6f1);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.gallery-section h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  opacity: 0.95;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.gallery-img {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+  opacity: 0.85;
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 30px rgba(241, 176, 176, 0.15);
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}

@@ -1,0 +1,42 @@
+.events-section {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #6b48ff, #ff4b9a, #00d4ff);
+  filter: blur(0.8);
+  text-align: center;
+}
+
+.events-section h2 {
+  color: aqua;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.event-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.event-card:hover {
+  background-color: transparent;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
+
+.event-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  font-size: 1rem;
+}

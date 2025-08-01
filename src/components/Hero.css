@@ -1,0 +1,42 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #1d2671, #c33764);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.hero-title {
+  opacity: 1;
+  color: rgb(96, 169, 221);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.tagline {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.scroll-down {
+  margin-top: 3rem;
+  font-size: 2rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}

@@ -1,0 +1,39 @@
+.contact-section {
+  padding: 100px 20px;
+  background-color: #698096;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-section h2 {
+  color: rgb(76, 138, 138);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-section p,
+.contact-section a {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #eee;
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  margin: 0 15px;
+  font-weight: bold;
+  color: #c33764;
+  opacity: 0.9;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
