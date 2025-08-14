@@ -5,6 +5,7 @@ import Gallery from "./components/Gallery";
 import Register from "./components/Register";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Gallery />
       <Register />
       <Contact />
+      <Footer/>
     </div>
   );
 }
