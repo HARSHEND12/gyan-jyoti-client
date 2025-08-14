@@ -79,7 +79,7 @@
   .nav-links li {
     text-align: center;
     padding: 1rem 0;
-    opacity: 0; /* GSAP starts here */
+    opacity: 1; /* GSAP starts here */
   }
 }
 
@@ -88,7 +88,7 @@
   transform: rotate(45deg) translateY(8px);
 }
 .hamburger.active span:nth-child(2) {
-  opacity: 0;
+  opacity: 1;
 }
 .hamburger.active span:nth-child(3) {
   transform: rotate(-45deg) translateY(-8px);
