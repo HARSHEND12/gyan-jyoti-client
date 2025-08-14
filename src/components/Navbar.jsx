@@ -14,7 +14,7 @@ const Navbar = () => {
         { opacity: 1, y: 0, duration: 0.4, stagger: 0.1, ease: "power2.out" }
       );
     } else {
-      gsap.set(linksRef.current, { opacity: 0, y: -20 });
+      gsap.set(linksRef.current, { opacity: 1, y: -20 });
     }
   }, [isOpen]);
 
